@@ -26,12 +26,15 @@
     <Compile Include="main.py" />
     <Compile Include="rectangle.py" />
     <Compile Include="sqaure.py" />
-    <Compile Include="test_basic_shape.py" />
-    <Compile Include="test_circle.py" />
-    <Compile Include="test_polymorphism.py" />
-    <Compile Include="test_rectangle.py" />
-    <Compile Include="test_sqaure.py" />
+    <Compile Include="tests\test_basic_shape.py" />
+    <Compile Include="tests\test_circle.py" />
+    <Compile Include="tests\test_polymorphism.py" />
+    <Compile Include="tests\test_rectangle.py" />
+    <Compile Include="tests\test_sqaure.py" />
     <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
