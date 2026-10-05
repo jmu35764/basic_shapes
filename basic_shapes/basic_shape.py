@@ -6,22 +6,18 @@ class BasicShape(ABC):
         self._area = _area
 
     @property
-    @abstractmethod
     def name(self):
         pass
 
     @name.setter
-    @abstractmethod
     def name(self, value):
         pass
 
     @property
-    @abstratmethod
     def area(self):
         pass
 
     @area.setter
-    @abstractmethod
     def area(self, value):
         pass
 
